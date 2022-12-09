@@ -52,5 +52,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'TestCoreWebApp'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_60b14ddc4121441382360cb8ed52b6dc }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
