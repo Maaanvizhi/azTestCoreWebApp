@@ -60,3 +60,7 @@ jobs:
           slot-name: 'Test'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
+          
+      - name: Azure logout
+        run: |
+          az logout
